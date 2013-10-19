@@ -32,3 +32,10 @@ cd ../..
 cd praca/zlecenia/zrealizowane
 mv rachunki.txt wykonano.txt
 ```
+
+6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
+
+```sh
+cat>wykonano.txt
+0123456789
+split --bytes=5 wykonano.txt
