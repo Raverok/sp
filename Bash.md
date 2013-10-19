@@ -50,4 +50,21 @@ cp -p ../../praca/zlecenia/zrealizowane/{xaa,xab,xac} ../../praca/dokumenty
 ```sh
 cd placa/dokumenty
 cat xaa xab xac > odtworzono.txt
+cp odtworzono.txt ../../dom/wazne-sprawy
+```
+
+9\. Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
+```sh
+cd dom/wazne-sprawy
+diff ./odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
+```
+
+10\. Wyświetl kalendarz na październik 2009 r. (cal)
+```sh
+
+```
+
+11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
+```sh
+
 ```
