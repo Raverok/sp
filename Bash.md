@@ -61,10 +61,14 @@ diff ./odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
 
 10\. Wyświetl kalendarz na październik 2009 r. (cal)
 ```sh
+cal 10 2009
+cal 11 2009 -B2
+cal 11 2009 -A1 -B1
+
 
 ```
 
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
 ```sh
-
+date -d 1975-05-25 +%A
 ```
