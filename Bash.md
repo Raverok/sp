@@ -39,3 +39,15 @@ mv rachunki.txt wykonano.txt
 cat>wykonano.txt
 0123456789
 split --bytes=5 wykonano.txt
+```
+
+7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
+```sh
+cp -p ../../praca/zlecenia/zrealizowane/{xaa,xab,xac} ../../praca/dokumenty
+```
+
+8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
+```sh
+cd placa/dokumenty
+cat xaa xab xac > odtworzono.txt
+```
