@@ -48,7 +48,7 @@ cp -p ../../praca/zlecenia/zrealizowane/{xaa,xab,xac} ../../praca/dokumenty
 
 8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
 ```sh
-cd placa/dokumenty
+cd praca/dokumenty
 cat xaa xab xac > odtworzono.txt
 cp odtworzono.txt ../../dom/wazne-sprawy
 ```
@@ -64,7 +64,7 @@ diff ./odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
 cal 10 2009
 cal 11 2009 -B2
 cal 11 2009 -A1 -B1
-
+cal -3 10 2009 | cut -c 1-43
 
 ```
 
