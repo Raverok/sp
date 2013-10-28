@@ -56,7 +56,12 @@ mv temp/praca/wazne-sprawy/ temp/dom/
 ```bash
 head -n4 program.c | tail -n2
 ```
+
 11\. Wyświetl linijki z pliku program.c (5 i 6 licząc od końca tekstu).
 ```bash
 tail -n 6 program.c | head -n 2
+```
+12\. Zadanie 11 używając rozwiązania z zadania 10.
+```bash
+tac program.c |head -n 7 program.c |  tail -n 3
 ```
