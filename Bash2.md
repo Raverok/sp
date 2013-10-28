@@ -52,3 +52,7 @@ rm temp.tar
 mv temp/praca/wazne-sprawy/ temp/dom/
 ```
 
+10\. Wyświetl linijki z pliku program.c (3 i 4 licząc od początku tekstu).
+```bash
+head -n4 program.c | tail -n2
+```
