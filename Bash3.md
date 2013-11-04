@@ -27,7 +27,7 @@ x=$(cat 2.txt) echo $x
 ```
 7\. Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
 ```sh
-
+cat 2.txt |tr " " "\n"
 ```
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 ```sh
