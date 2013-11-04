@@ -29,6 +29,10 @@ x=$(cat 2.txt) echo $x
 ```sh
 cat 2.txt |tr " " "\n"
 ```
+7a\. Zastąpienie wielu spacji przez jedną spację.
+```sh
+
+```
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 ```sh
 ls -a /etc | wc -l
