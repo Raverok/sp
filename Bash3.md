@@ -37,6 +37,10 @@ cat 2.txt |tr " " "\n"
 ```sh
 ls -a /etc | wc -l
 ```
+8a\.
+```sh
+ls -a /var/* | wc -l
+```
 9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd.
 ```sh
 head -n 3 /etc/passwd | wc -c
