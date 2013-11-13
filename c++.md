@@ -28,3 +28,7 @@ i=i-1;
 ```
 
 Zad 2
+```c
+Odejmowanie: podobnie do dodawania,ale przeniesienie moze byc ujemne
+Mnozenie: najpierw zrealizowac mnozenie przez cyfre oraz mnozenie przez 10 (przesuwanie w lewo)
+```
