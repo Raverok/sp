@@ -26,3 +26,5 @@ pintf("&i", wynik[i]);
 i=i-1;
 }
 ```
+
+Zad 2
