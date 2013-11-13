@@ -1,3 +1,4 @@
+```c
 liczba cyfr liczby a: dlug_a
 liczba cyfr liczby b: dlug_b
 if(dlug_a<dlug_b) max=dlug_b;
@@ -24,3 +25,4 @@ while(i>=0) {
 pintf("&i", wynik[i]);
 i=i-1;
 }
+```
