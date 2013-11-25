@@ -17,7 +17,7 @@ find . -atime -20 -type f
 
 4\. Znajdź w katalogu /etc wszystkie niepuste podkatalogi i pliki o nazwach zaczynających się na literę „a”.
 ```bash
-find -type d ! -empty
+find \( -type d ! -empty \) -or -name "a*"
 ```
 
 5\. Z bieżącego katalogu usuń pliki, których nazwa zaczyna się na literę „x” i zawiera dokładnie trzy znaki.
